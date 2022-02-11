@@ -20,5 +20,5 @@
         setcookie("username", $user);
         setcookie("password", $psw);
     }
-    echo "<h3>username: ".$_COOKIE[$user]." e password: ".$_COOKIE[$user]."</h3>";
+    echo "<h3>username: ".$_COOKIE[$user]." e password: ".$_COOKIE[$password]."</h3>";
 ?>
